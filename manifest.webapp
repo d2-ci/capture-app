@@ -8,16 +8,16 @@
   },
   "appType": "APP",
   "name": "Capture",
-  "version": "0.9.4",
+  "version": "1.0.2",
   "description": "Capture App",
   "icons": {
-    "16": "/assets/icons/track16.png",
-    "48": "/assets/icons/track48.png",
-    "128": "/assets/icons/track128.png"
+    "16": "assets/icons/track16.png",
+    "48": "assets/icons/track48.png",
+    "128": "assets/icons/track128.png"
   },
   "developer": {
     "name": "HISP",
     "url": "http://dhis2.org"
   },
-  "manifest_generated_at": "Fri Aug 09 2019 12:52:40 GMT+0000 (UTC)"
+  "manifest_generated_at": "Tue Aug 13 2019 11:04:09 GMT+0000 (Coordinated Universal Time)"
 }
