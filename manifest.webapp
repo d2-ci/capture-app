@@ -7,7 +7,7 @@
     }
   },
   "appType": "APP",
-  "name": "Capture",
+  "name": "Capture2",
   "version": "0.9.5",
   "description": "Capture App",
   "icons": {
@@ -19,5 +19,5 @@
     "name": "HISP",
     "url": "http://dhis2.org"
   },
-  "manifest_generated_at": "Tue Nov 19 2019 16:11:02 GMT+0000 (UTC)"
+  "manifest_generated_at": "Wed Nov 20 2019 12:55:57 GMT+0000 (UTC)"
 }
