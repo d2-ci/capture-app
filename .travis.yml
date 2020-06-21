@@ -34,8 +34,8 @@ jobs:
     - name: 'Deploy - Node.js v12'
       env:
       node_js: 12
+      skip_cleanup: true
       script: npx --package @dhis2/deploy-build deploy-build d2-ci build/app
       deploy:
         edge: true
         provider: yarn
-      skip_cleanup: true
