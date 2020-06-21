@@ -1,0 +1,4 @@
+#FLOW-TYPED
+to install libdefs: 
+flow-typed install --libdefDir fromReactScripts
+move folders to flow-typed directory
