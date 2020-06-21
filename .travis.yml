@@ -1,0 +1,41 @@
+language: node_js
+
+node_js:
+- '10'
+
+cache:
+  # Not relying on 'npm' shortcut, as per Travis docs it's the only 'node_modules' that it'll cache
+  yarn: true
+  directories:
+    - $HOME/.npm
+    - node_modules
+    -
+env:
+  global:
+    secure: gRMnUgo6ludTP1BfUycfvdknIAt1jDh5MqZEPp3HvU6+QDda8PU0t0XS5qg9fbYiZ6vr8Aj2fDGXqg+VnLJiQmG13wb0mwrHJ7mf3tt2x0ezUuOt7mzQRTGbmXSH+z2c3w8oGB/Qj8J6ci10S4fINsp+IHtmUxvAmZplm7crqDfDTlOVm/7AhgK5QJxe3Dgu6bKWWBxvGAAjc4I2W3ZuY88mq0G3xKh+I6fBq5yVUmLyKIh/5kyPFwI3eM0DygQuremN5Y5SqXs/2yexNoLqJySYJV7HyPKlzushvlwMIsj40XDiqahffU2u+B1xvybMCDycml88sSoPSuu4QozvwmfNmIIr93hBL1yZI2FhIDl+gG+fcYC8jPtlgMP7Dqb/CXmXrqYMdQCjBUeNjP5n0p+jl+sjWFLehoGZwzI/y77COc8ZJqi96NCEp/qrkdabWJMqgIQIuYK3pP08+o3diz70HXjTiWSR0C1hvDOql3YlgmMw+aw+T0z/itQ65hJvmHZ1Ui8GJxnZoihl5ZzboMoYzBPPK2bEXEqLEromycaXYzDNVhorjkJcZGXSjZc6k5mtz0EbFTILv0upZPFCoLqY3z3x5vOXx/uMQLHC6ZWsCIkMjy05y6nndAMFAj/V6/ue4v4o+HpjMJFgVi/GjFCXp8u9c+mkG/qU6WG7+DE=
+
+branches:
+  on:
+    all_branches: true
+
+install:
+  - yarn
+
+jobs:
+  include:
+    # For PR's
+    - name: 'Before deploy check for eslint and flow - Node.js v12'
+      if: type = pull_request
+      node_js: 12
+      script:
+        - yarn lint
+        -
+    # on master
+    - name: 'Deploy - Node.js v12'
+      env:
+      node_js: 12
+      script: npx --package @dhis2/deploy-build deploy-build d2-ci build/app
+      deploy:
+        edge: true
+        provider: yarn
+      skip_cleanup: true
