@@ -58,11 +58,6 @@ object-assign
  */
 
 /**
- * @license
- * Lodash lodash.com/license | Underscore.js 1.8.3 underscorejs.org/LICENSE
- */
-
-/**
  * CSS Vendor prefix detection and property feature testing.
  *
  * @copyright Oleg Slobodskoi 2015
