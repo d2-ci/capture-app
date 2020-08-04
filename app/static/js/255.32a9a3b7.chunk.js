@@ -1,0 +1,1 @@
+(this["webpackJsonp@dhis2/app-shell"]=this["webpackJsonp@dhis2/app-shell"]||[]).push([[255],{1181:function(s){s.exports=JSON.parse('{"typings":"../typings.d.ts"}')}}]);
