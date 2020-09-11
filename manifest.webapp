@@ -1,23 +1,21 @@
 {
+  "appType": "APP",
+  "short_name": "capture-app",
+  "name": "capture-app",
+  "version": "35.0.0",
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
     "dhis": {
-      "href": ".."
+      "href": "*"
     }
   },
-  "appType": "APP",
-  "name": "Capture",
-  "version": "1.0.5",
-  "description": "Capture App",
   "icons": {
-    "16": "assets/icons/track16.png",
-    "48": "assets/icons/track48.png",
-    "128": "assets/icons/track128.png"
+    "48": "dhis2-app-icon.png"
   },
-  "developer": {
-    "name": "HISP",
-    "url": "http://dhis2.org"
-  },
-  "manifest_generated_at": "Wed Aug 12 2020 06:20:13 GMT+0000 (Coordinated Universal Time)"
+  "manifest_generated_at": "Fri Sep 11 2020 12:18:55 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
 }
