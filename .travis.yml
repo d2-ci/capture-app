@@ -19,7 +19,7 @@ jobs:
   include:
     - stage: deploy
       script:
-        - yarn build
+        - yarn build --force --verbose
         - npx --package @dhis2/deploy-build deploy-build d2-ci build/app
       skip_cleanup: true
       on:
