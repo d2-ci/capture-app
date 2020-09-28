@@ -1,0 +1,866 @@
+# 
+# Translators:
+# Viktor Varland <viktor@dhis2.org>, 2020
+# easylin <lin_xd@126.com>, 2020
+# phil_dhis2, 2020
+# 晓东 林 <13981924470@126.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2020-09-16T10:01:51.572Z\n"
+"PO-Revision-Date: 2019-06-27 07:31+0000\n"
+"Last-Translator: 晓东 林 <13981924470@126.com>, 2020\n"
+"Language-Team: Chinese (https://www.transifex.com/hisp-uio/teams/100509/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Choose one or more dates..."
+msgstr "选择一个或多个日期"
+
+msgid "Choose a date..."
+msgstr "选择日期"
+
+msgid "Today"
+msgstr "今天"
+
+msgid ""
+"A possible reason for this is that the browser or mode (e.g. privacy mode) "
+"is not supported. See log for details."
+msgstr "将 "
+
+msgid ""
+"You opened another version of the Capture App in the same domain. Currently,"
+" the Capture App only supports running one version concurrently (in the same"
+" domain). Please refresh this page if you would like to use this version "
+"again, but be aware that this will close other versions."
+msgstr "在同一个容器中你打开了其它版本的采集App。当前，该应用仅仅支持同时运行一个版本应用。请刷新页面，如果你想使用该版本。注意将关闭其它版本。"
+
+msgid "Last updated"
+msgstr "上次更新"
+
+msgid "Enrolled"
+msgstr ""
+
+msgid "Previously enrolled"
+msgstr ""
+
+msgid "Not enrolled"
+msgstr ""
+
+msgid "Columns to show in table"
+msgstr "表中显示的列"
+
+msgid "Column"
+msgstr "列"
+
+msgid "This value is validating"
+msgstr "值正在被验证"
+
+msgid "Async field update failed"
+msgstr "异步字段更新失败"
+
+msgid "A value is required"
+msgstr "需要一个值"
+
+msgid "Please provide a valid number"
+msgstr "请提供一个有效的数字"
+
+msgid "Please provide a valid integer"
+msgstr "请提供一个整数"
+
+msgid "Please provide a positive integer"
+msgstr "提供一个正整数"
+
+msgid "Please provide zero or a positive integer"
+msgstr "0或负整数"
+
+msgid "Please provide a negative integer"
+msgstr "负整数"
+
+msgid "Please provide a valid date"
+msgstr "请提供有效的日期"
+
+msgid "A date in the future is not allowed"
+msgstr "不允许将来的日期"
+
+msgid "Please provide a valid date and time"
+msgstr "日期和时间"
+
+msgid "Please provide a valid time"
+msgstr "有效的时间"
+
+msgid "Please provide a valid percentage"
+msgstr "有效的百分比"
+
+msgid "Please provide a valid url"
+msgstr "有效的URL"
+
+msgid "Please provide a valid email address"
+msgstr "有效的邮箱"
+
+msgid "Please provide a valid age"
+msgstr "有效的年龄"
+
+msgid "Please provide a valid phone number"
+msgstr "有效的电话号码"
+
+msgid "Please provide a valid organisation unit"
+msgstr "有效的机构"
+
+msgid "Please provide valid coordinates"
+msgstr "有效的坐标"
+
+msgid "This value already exists"
+msgstr "值已经存在"
+
+msgid "\"From\" cannot be greater than \"To\""
+msgstr "自不能大于至"
+
+msgid "Checking..."
+msgstr "检查"
+
+msgid "Area"
+msgstr "面积"
+
+msgid "Coordinate"
+msgstr "坐标"
+
+msgid "Enrollment"
+msgstr "注册"
+
+msgid "A future date is not allowed"
+msgstr "将来的日期不允许"
+
+msgid "An error has occured. See log for details"
+msgstr "发生一个错误,看日志"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Unsaved changes"
+msgstr "没有保存的修改"
+
+msgid "Leaving this page will discard the changes you made to this event."
+msgstr "离开将丢失对事件的修改"
+
+msgid "Yes, discard"
+msgstr "是,忽略"
+
+msgid "No, stay here"
+msgstr "不,继续呆着"
+
+msgid "validation failed"
+msgstr "验证失败"
+
+msgid "Errors"
+msgstr "错误"
+
+msgid "Feedback"
+msgstr "反馈"
+
+msgid "Indicators"
+msgstr "指标"
+
+msgid "Warnings"
+msgstr "错误"
+
+msgid "search group result could not be retrieved"
+msgstr "搜索组结果不能提取"
+
+msgid "Complete"
+msgstr "完成"
+
+msgid "Warnings found"
+msgstr "发现警告"
+
+msgid "Abort"
+msgstr "关于"
+
+msgid "Back to form"
+msgstr "回到表单"
+
+msgid "Save anyway"
+msgstr "总是保存"
+
+msgid "Validation errors and warnings"
+msgstr "验证错误和警告"
+
+msgid "Validation errors"
+msgstr "验证错误"
+
+msgid "Validation warnings"
+msgstr "有效性警告"
+
+msgid "Some operations are still runnning. Please wait.."
+msgstr "有些操作一直在运行,请等待"
+
+msgid "Operations running"
+msgstr "操作在运行"
+
+msgid "Sort"
+msgstr "排序"
+
+msgid "No events to display"
+msgstr "无事件可显示"
+
+msgid "Data for offline list not present"
+msgstr "离线列表数据不在"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Please select the user"
+msgstr "请选择用户"
+
+msgid "Search for user"
+msgstr "搜索用户 "
+
+msgid "Me"
+msgstr "我"
+
+msgid "Anyone"
+msgstr "任何人"
+
+msgid "None"
+msgstr "无"
+
+msgid "Select user"
+msgstr "选择用户"
+
+msgid "to"
+msgstr "到"
+
+msgid "From"
+msgstr "从"
+
+msgid "To"
+msgstr "至"
+
+msgid "This week"
+msgstr "本周"
+
+msgid "This month"
+msgstr "本月"
+
+msgid "This Year"
+msgstr "今年"
+
+msgid "Last week"
+msgstr "上周"
+
+msgid "Last month"
+msgstr "上月"
+
+msgid "Last 3 months"
+msgstr "最近3个月"
+
+msgid "Custom range"
+msgstr "定制范围"
+
+msgid "Max"
+msgstr "最大"
+
+msgid "Min"
+msgstr "最小"
+
+msgid "Contains text"
+msgstr "包含文本"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "mm/dd/yyyy"
+msgstr "mm/dd/yyyy"
+
+msgid "Years"
+msgstr "年"
+
+msgid "Months"
+msgstr "月"
+
+msgid "Days"
+msgstr "天"
+
+msgid "Uploading file"
+msgstr "上传文件"
+
+msgid "selected"
+msgstr "选择的"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Select file"
+msgstr "选择文件"
+
+msgid "No"
+msgstr "否"
+
+msgid "Uploading image"
+msgstr "上传图像"
+
+msgid "Select image"
+msgstr "选择图像"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "No results"
+msgstr "无结果"
+
+msgid "start typing to search"
+msgstr "开始输入搜索内容"
+
+msgid "suggestions could not be retrieved"
+msgstr "建议不能提取"
+
+msgid "No items to display"
+msgstr "无条目可显示"
+
+msgid "Could not get organisation unit"
+msgstr "不能获取机构"
+
+msgid "Program doesn't exist"
+msgstr "项目不存在"
+
+msgid "Selected program is invalid for selected registering unit"
+msgstr "选择的项目对选择的机构无效"
+
+msgid "Start again"
+msgstr "再开始"
+
+msgid "New {{typeName}}"
+msgstr "新建 {{typeName}}"
+
+msgid "New"
+msgstr "新建"
+
+msgid "Find"
+msgstr "查询"
+
+msgid "Selected registering unit"
+msgstr "选择注册的机构"
+
+msgid "Start Again"
+msgstr "再开始"
+
+msgid "Are you sure? All unsaved data will be lost."
+msgstr "你确信？所以未保存的数据将丢失"
+
+msgid "Accept"
+msgstr "接受<br>"
+
+msgid "Registering Organisation Unit"
+msgstr "在注册的机构"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Selected Program"
+msgstr "选择的项目"
+
+msgid "Some programs are being filtered."
+msgstr "有些项目已经被过滤了"
+
+msgid "Show all"
+msgstr "显示全部"
+
+msgid "Program"
+msgstr "项目"
+
+msgid "Select program"
+msgstr "选择项目"
+
+msgid "No programs available."
+msgstr "无可用项目"
+
+msgid "Online"
+msgstr "在线"
+
+msgid "Offline"
+msgstr "离线"
+
+msgid "Syncing"
+msgstr "同步"
+
+msgid "Add comment"
+msgstr "添加备注"
+
+msgid "You dont have access to write comments"
+msgstr "你没有权限写备注"
+
+msgid "Write comment"
+msgstr "写备注"
+
+msgid "Basic info"
+msgstr "基本信息"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Comments"
+msgstr "评论"
+
+msgid "Please add or cancel comment before saving the event"
+msgstr "保存事件前请添加或取消被或许"
+
+msgid "No write access"
+msgstr "无写权限"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Show all events"
+msgstr "显示所有事件"
+
+msgid "Edit event"
+msgstr "编辑事件"
+
+msgid "Event could not be loaded. Are you sure it exists?"
+msgstr "事件不能载入"
+
+msgid "Event could not be loaded"
+msgstr "事件不能载入"
+
+msgid "Organisation unit could not be loaded"
+msgstr "机构不能载入"
+
+msgid "View event info"
+msgstr "查看事件信息"
+
+msgid "Delete event"
+msgstr "删除事件"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "{{fromDate}} to {{toDate}}"
+msgstr "{{fromDate}} 到 {{toDate}}"
+
+msgid "after or equal to {{date}}"
+msgstr "晚于或等于 {{date}}"
+
+msgid "before or equal to {{date}}"
+msgstr "早于或等于 {{date}}"
+
+msgid "greater than or equal to"
+msgstr "大于等于"
+
+msgid "less than or equal to"
+msgstr "小于等于"
+
+msgid "More filters"
+msgstr "更多过滤器"
+
+msgid "Select columns"
+msgstr "选择列"
+
+msgid "Download as JSON"
+msgstr "下载为JSON"
+
+msgid "Download as XML"
+msgstr "下载为xml"
+
+msgid "Download as CSV"
+msgstr "获取CSV格式报表"
+
+msgid "Download with current filters"
+msgstr "随着过滤器下载"
+
+msgid "Download data..."
+msgstr "下载数据"
+
+msgid "Rows per page"
+msgstr "行每页"
+
+msgid "Update view"
+msgstr "更新视图"
+
+msgid "Save current view..."
+msgstr "保存当前视图"
+
+msgid "Save current view as..."
+msgstr "另存当前视图为"
+
+msgid "Delete view"
+msgstr "删除视图"
+
+msgid "Share view..."
+msgstr "分享视图"
+
+msgid "Do you really want to delete the '{{templateName}}' view?"
+msgstr "你真想删除  '{{templateName}}'  视图"
+
+msgid "Confirm"
+msgstr "确认"
+
+msgid "Save As view"
+msgstr "另存视图为"
+
+msgid "View name"
+msgstr "视图名称"
+
+msgid "Show Less"
+msgstr "显示较少<br>"
+
+msgid "Show All"
+msgstr "显示全部"
+
+msgid "Working list could not be loaded"
+msgstr "工作列表不能载入"
+
+msgid "an error occurred loading working lists"
+msgstr "载入工作列表发生错误"
+
+msgid "Registered events"
+msgstr "登记的事件"
+
+msgid "Active"
+msgstr "活动的"
+
+msgid "Completed"
+msgstr "已完成"
+
+msgid "Creating a new {{TET}} in {{program}} in {{orgUnit}}"
+msgstr "在 {{orgUnit}}的 {{program}} 中创建一个新的{{TET}} 实例"
+
+msgid "Save and add another"
+msgstr "保存并另外添加"
+
+msgid "Save and exit"
+msgstr "保存后退出"
+
+msgid "Finish"
+msgstr "结束"
+
+msgid "Switch to form view"
+msgstr "切换到表单视图"
+
+msgid "Switch to row view"
+msgstr "切换到行视图"
+
+msgid "New {{TET}}"
+msgstr "新建 {{TET}}"
+
+msgid "Working Lists"
+msgstr "工作列表"
+
+msgid ""
+"Program with programid {{programId}} isn't a tracker program. Enrollments "
+"can only be done in tracker programs."
+msgstr "项目标识为 {{programId}}的项目不是跟踪随访项目，注册仅仅可能在跟踪随访项目里进行"
+
+msgid "Assigned user"
+msgstr "分配的用户"
+
+msgid "Relationships"
+msgstr "关系"
+
+msgid "Assignee"
+msgstr "分配者"
+
+msgid "Saving to"
+msgstr "保存到"
+
+msgid "in"
+msgstr " 在"
+
+msgid ""
+"This is not an event program or the metadata is corrupt. See log for "
+"details."
+msgstr "这不是事件项目或者元数据坏了，查看日志详情"
+
+msgid "This event"
+msgstr "该事件"
+
+msgid ""
+"Relationship of type {{relationshipTypeName}} to {{entityName}} already "
+"exists"
+msgstr "{{entityName}} 的 {{relationshipTypeName}}  关系类型已经存在"
+
+msgid "New event"
+msgstr "新事件"
+
+msgid "New event relationship"
+msgstr "新建事件关系"
+
+msgid "Adding relationship to event."
+msgstr "添加关系到事件"
+
+msgid "Go back to event without saving relationship"
+msgstr "后退到事件不保存关系"
+
+msgid ""
+"Leaving this page will discard the selections you made for a new "
+"relationship"
+msgstr "离开本页将丢掉你的新关系的选择"
+
+msgid "events added"
+msgstr "事件已经被添加"
+
+msgid "No events added"
+msgstr "没有事件被添加"
+
+msgid "Select a registering unit and program above to get started"
+msgstr "选择一个注册机构和上面的项目开始"
+
+msgid "Select a program to start reporting"
+msgstr "选择一个项目开始上报"
+
+msgid "Select a registering unit to start reporting"
+msgstr "选择一个机构开始上报"
+
+msgid "Select a category option to start reporting"
+msgstr "选择一个分类选项开始上报"
+
+msgid "You dont have access to create an event in the current selections"
+msgstr "你没有在当前选择创建事件的权限"
+
+msgid "A duplicate exists (but there were some errors, see log for details"
+msgstr "存在重复，但是有错误，查看日志详情。"
+
+msgid ""
+"An item with this {{attributeName}} is already registered, but you don't "
+"have access to it"
+msgstr " 具有 {{attributeName}}  属性的条目已经注册 ，但是你不能访问 "
+
+msgid "You have already registered this {{attributeName}}"
+msgstr "你已经登记了该属性"
+
+msgid ""
+"A {{trackedEntityTypeName}} with this {{attributeName}} is already "
+"registered"
+msgstr "一个 {{trackedEntityTypeName}} 且具有 {{attributeName}} 已经注册"
+
+msgid "Show registered {{trackedEntityTypeName}}"
+msgstr "显示登记的 {{attributeName}} "
+
+msgid "Registered person"
+msgstr "注册的人"
+
+msgid "Link"
+msgstr "链接"
+
+msgid "Metadata error. see log for details"
+msgstr "元数据错误"
+
+msgid "Review duplicates"
+msgstr "复查重复"
+
+msgid "Create {{trackedEntityTypeName}} and link"
+msgstr "创建 {{trackedEntityTypeName}}  和链接"
+
+msgid "Possible duplicates found"
+msgstr "发现可能的重复"
+
+msgid "An error occured loading possible duplicates"
+msgstr "载入可能的重复发生错误"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Save as new {{tetName}}"
+msgstr "保存为新的  {{tetName}}"
+
+msgid "Organisation Unit"
+msgstr "组织机构"
+
+msgid "Registration"
+msgstr "注册"
+
+msgid "Review Duplicates"
+msgstr "复查重复"
+
+msgid "Search results"
+msgstr "搜索结果"
+
+msgid "No {{trackedEntityTypeName}} found."
+msgstr "没有发现  {{trackedEntityTypeName}} "
+
+msgid "{{teiCount}} results found for"
+msgstr "发现 {{teiCount}} 条结果"
+
+msgid "New search"
+msgstr "新搜索"
+
+msgid "Edit search"
+msgstr "编辑搜索"
+
+msgid "Link to an existing {{trackedEntityType}}"
+msgstr "链接到存在的 {{trackedEntityType}}"
+
+msgid "Create new {{trackedEntityType}}"
+msgstr "创建新的{{trackedEntityType}}"
+
+msgid "Register"
+msgstr "注册"
+
+msgid "Search scope"
+msgstr "搜索范围"
+
+msgid "Find results from"
+msgstr ""
+
+msgid ""
+"Fill in at least {{minAttributesRequiredToSearch}}  attributes to search"
+msgstr ""
+
+msgid "Search {{name}}"
+msgstr ""
+
+msgid "Find by {{name}}"
+msgstr ""
+
+msgid "Search by attributes"
+msgstr "按属性搜索"
+
+msgid "Back"
+msgstr "后退"
+
+msgid "No results found"
+msgstr "没有结果"
+
+msgid ""
+"You can change your search terms and search again to find what you are "
+"looking for."
+msgstr ""
+
+msgid "Back to search"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr ""
+
+msgid ""
+"There is a problem with this search, please change the search terms or try "
+"again later. For more details open the Console tab of the Developer tools"
+msgstr ""
+
+msgid "Make a selection to start searching"
+msgstr ""
+
+msgid "View dashboard"
+msgstr ""
+
+msgid "result(s) found for term(s)"
+msgstr ""
+
+msgid "You dont have access to edit this event"
+msgstr "你没有访问该事件的权限"
+
+msgid ""
+"Leaving this page will discard any selections you made for a new "
+"relationship"
+msgstr "离开该页将丢失你创建新关系的所有选择"
+
+msgid "No one is assigned to this event"
+msgstr "没有人被分配到的该事件"
+
+msgid "Assign"
+msgstr "分配"
+
+msgid "Event assigned to {{name}}"
+msgstr "事件被分配到  {{name}}"
+
+msgid "Feedbacks"
+msgstr "反馈"
+
+msgid "You dont have access to delete this relationship"
+msgstr "你v不能访问删除的关系"
+
+msgid "You dont have access to create any relationships"
+msgstr "你没有权限创建任何关系"
+
+msgid "Add relationship"
+msgstr "添加关系"
+
+msgid "Selected program"
+msgstr "选择的项目"
+
+msgid "Search {{uniqueAttrName}}"
+msgstr "搜索 {{uniqueAttrName}}"
+
+msgid "Fill in at least {{minAttributesRequired}} attributes to search"
+msgstr "至少填充 {{minAttributesRequired}}  个属性便于搜索"
+
+msgid "To work with the selected program,"
+msgstr "基于选择的项目工作"
+
+msgid "open the Tracker Capture app"
+msgstr "打开跟踪随访APP"
+
+msgid "Program not found"
+msgstr "没有发现项目"
+
+msgid "Program is not a tracker program"
+msgstr "项目不是跟踪随访项目"
+
+msgid "Profile"
+msgstr "简历"
+
+msgid "Error saving event"
+msgstr "保存时间错误"
+
+msgid "Could not save event. See log for details"
+msgstr "不能保存事件，看日志"
+
+msgid "Could not delete event"
+msgstr "不能删除事件"
+
+msgid "Could not save working list"
+msgstr "不能保存工作列表"
+
+msgid "Could not add working list"
+msgstr "不能添加工作列表"
+
+msgid "Could not delete working list"
+msgstr "不能删除工作列表"
+
+msgid "Organisation unit search failed. See log for details"
+msgstr "机构搜索失败，查看日志"
+
+msgid "tracked entity instance"
+msgstr "跟踪的实体实例"
+
+msgid "Set coordinate"
+msgstr "设置坐标"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "From date"
+msgstr "起始日期"
+
+msgid "From time"
+msgstr "从时间"
+
+msgid "To date"
+msgstr "到目前为止"
+
+msgid "To time"
+msgstr "到时间"
+
+msgid "error encountered during field validation"
+msgstr "字段验证发生错误。"
+
+msgid "error"
+msgstr "错误"
+
+msgid "Delete polygon"
+msgstr "删除多边形"
+
+msgid "Set area"
+msgstr "设置区域"
+
+msgid "Compatibility mode"
+msgstr "兼容性模式"
