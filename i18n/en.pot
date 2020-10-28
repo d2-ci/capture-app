@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2020-08-26T13:05:11.412Z\n"
-"PO-Revision-Date: 2020-08-26T13:05:11.412Z\n"
+"POT-Creation-Date: 2020-10-01T14:44:39.931Z\n"
+"PO-Revision-Date: 2020-10-01T14:44:39.931Z\n"
 
 msgid "Choose one or more dates..."
 msgstr ""
@@ -27,6 +27,24 @@ msgid ""
 "Currently, the Capture App only supports running one version concurrently "
 "(in the same domain). Please refresh this page if you would like to use "
 "this version again, but be aware that this will close other versions."
+msgstr ""
+
+msgid "Organisation unit"
+msgstr ""
+
+msgid "Date of enrollment"
+msgstr ""
+
+msgid "Last updated"
+msgstr ""
+
+msgid "Enrolled"
+msgstr ""
+
+msgid "Previously enrolled"
+msgstr ""
+
+msgid "Not enrolled"
 msgstr ""
 
 msgid "Columns to show in table"
@@ -317,10 +335,10 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-msgid "Start again"
+msgid "Find"
 msgstr ""
 
-msgid "Find"
+msgid "Clear selections"
 msgstr ""
 
 msgid "Selected registering unit"
@@ -638,6 +656,9 @@ msgstr ""
 msgid "Possible duplicates found"
 msgstr ""
 
+msgid "No results found"
+msgstr ""
+
 msgid "An error occured loading possible duplicates"
 msgstr ""
 
@@ -662,9 +683,6 @@ msgstr ""
 msgid "No {{trackedEntityTypeName}} found."
 msgstr ""
 
-msgid "{{teiCount}} results found for"
-msgstr ""
-
 msgid "New search"
 msgstr ""
 
@@ -678,6 +696,61 @@ msgid "Create new {{trackedEntityType}}"
 msgstr ""
 
 msgid "Register"
+msgstr ""
+
+msgid "Search for"
+msgstr ""
+
+msgid "You can also choose a program from the top bar and search in that program"
+msgstr ""
+
+msgid "Fill in at least {{minAttributesRequiredToSearch}}  attributes to search"
+msgstr ""
+
+msgid "Search {{name}}"
+msgstr ""
+
+msgid "Find by {{name}}"
+msgstr ""
+
+msgid "Search by attributes"
+msgstr ""
+
+msgid "Find a"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid ""
+"You can change your search terms and search again to find what you are "
+"looking for."
+msgstr ""
+
+msgid "Back to search"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr ""
+
+msgid ""
+"There is a problem with this search, please change the search terms or try "
+"again later. For more details open the Console tab of the Developer tools"
+msgstr ""
+
+msgid "Make a selection to start searching"
+msgstr ""
+
+msgid "View dashboard"
+msgstr ""
+
+msgid "View active enrollment"
+msgstr ""
+
+msgid "Re-enroll"
 msgstr ""
 
 msgid "You dont have access to edit this event"
@@ -709,13 +782,13 @@ msgstr ""
 msgid "Add relationship"
 msgstr ""
 
+msgid "Results found"
+msgstr ""
+
 msgid "Selected program"
 msgstr ""
 
 msgid "Search {{uniqueAttrName}}"
-msgstr ""
-
-msgid "Search by attributes"
 msgstr ""
 
 msgid "Fill in at least {{minAttributesRequired}} attributes to search"
@@ -761,6 +834,9 @@ msgid "tracked entity instance"
 msgstr ""
 
 msgid "Set coordinate"
+msgstr ""
+
+msgid "Page {{currentPage}}"
 msgstr ""
 
 msgid "Date"
