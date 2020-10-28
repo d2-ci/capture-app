@@ -1,5 +1,5 @@
 // @flow
-import type StorageController from 'capture-core-utils/storage/StorageController';
+import { typeof StorageController } from 'capture-core-utils/storage';
 import type { ProgramRule, ProgramRuleVariable } from '../../rules/engine';
 import { ProgramFactory } from './factory';
 import type {
@@ -122,6 +122,7 @@ function addProgramRules(d2ProgramRules: Array<ProgramRule>) {
                     const rulesForStage = rulesByStage[stageKey];
                     const programStage = program.getStage(stageKey);
                     if (programStage) {
+                        // $FlowFixMe[prop-missing] automated comment
                         programStage.programRules = rulesForStage;
                     }
                 });
