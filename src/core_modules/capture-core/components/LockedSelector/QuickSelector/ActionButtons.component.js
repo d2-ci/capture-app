@@ -1,15 +1,10 @@
 // @flow
-import React, { type ComponentType, useMemo } from 'react';
+import React, { type ComponentType } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import i18n from '@dhis2/d2-i18n';
 import { Button, colors, DropdownButton, FlyoutMenu, MenuItem } from '@dhis2/ui';
-import {
-    scopeTypes,
-    EventProgram,
-    TrackerProgram,
-    TrackedEntityType,
-    getScopeFromScopeId,
-} from '../../../metaData';
+import { scopeTypes, TrackerProgram } from '../../../metaData';
+import { useScopeInfo } from '../../../hooks/useScopeInfo';
 
 
 const styles = ({ typography }) => ({
@@ -37,29 +32,6 @@ type Props = $ReadOnly<{|
     showResetButton: boolean,
 |}>;
 
-
-export function useScopeInfo(scopeId: ?string) {
-    const scope = useMemo(() => getScopeFromScopeId(scopeId),
-        [scopeId]);
-
-    if (scope instanceof EventProgram) {
-        const trackedEntityName = '';
-        const programName = scope.name;
-
-        return { trackedEntityName, programName, scopeType: scopeTypes.EVENT_PROGRAM };
-    } else if (scope instanceof TrackerProgram) {
-        const trackedEntityName = scope.trackedEntityType ? scope.trackedEntityType.name.toLowerCase() : '';
-        const programName = scope.name;
-
-        return { trackedEntityName, programName, scopeType: scopeTypes.TRACKER_PROGRAM };
-    } else if (scope instanceof TrackedEntityType) {
-        const trackedEntityName = scope.name;
-        const programName = '';
-
-        return { trackedEntityName, programName, scopeType: scopeTypes.TRACKED_ENTITY_TYPE };
-    }
-    return { programName: '', scopeType: '', trackedEntityName: '' };
-}
 
 const Index = ({
     onStartAgainClick,

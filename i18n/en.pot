@@ -701,12 +701,6 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
-msgid "Search for"
-msgstr ""
-
-msgid "You can also choose a program from the top bar and search in that program"
-msgstr ""
-
 msgid "Fill in at least {{minAttributesRequiredToSearch}}  attributes to search"
 msgstr ""
 
@@ -797,6 +791,12 @@ msgid "Search {{uniqueAttrName}}"
 msgstr ""
 
 msgid "Fill in at least {{minAttributesRequired}} attributes to search"
+msgstr ""
+
+msgid "Search for"
+msgstr ""
+
+msgid "You can also choose a program from the top bar and search in that program"
 msgstr ""
 
 msgid "To work with the selected program,"

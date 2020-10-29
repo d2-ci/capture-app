@@ -25,7 +25,7 @@ import { withErrorMessageHandler, withLoadingIndicator } from '../../../HOC';
 import { InefficientSelectionsMessage } from '../../InefficientSelectionsMessage';
 import { searchScopes } from './SearchPage.constants';
 import { ResultsPageSizeContext } from '../shared-contexts';
-import { cleanFallbackRelatedData } from './SearchPage.actions';
+import { useTitleText } from '../../../hooks/useTitleText';
 
 export const useTitleText = (selectedSearchScopeId: ?string) => {
     const { trackedEntityName, programName, scopeType } = useScopeInfo(selectedSearchScopeId);
@@ -125,7 +125,7 @@ const Index = ({
       (selectedSearchScopeId ? availableSearchOptions[selectedSearchScopeId].searchGroups : []);
 
 
-    const handleSearchScopeSelection = (TETypeId, searchType) => {
+    const handleSearchScopeSelection = (searchScopeId, searchType) => {
         showInitialSearchPage();
         cleanFallback();
         setSearchScopeId(TETypeId);
