@@ -13,6 +13,10 @@ export const searchPageActionTypes = {
     TO_MAIN_PAGE_NAVIGATE: 'NavigateToMainPage',
     CURRENT_SEARCH_INFO_SAVE: 'SaveCurrentSearchInfo',
     INITIAL_PROGRAM_ID_STORE: 'StoreInitialProgramId',
+    START_FALLBACK_SEARCH: 'StartFallbackSearch',
+    FALLBACK_SEARCH: 'FallbackSearch',
+    FALLBACK_SEARCH_ROUTER_PUSH: 'FallbackPushToSearchPageWithoutProgramSelected',
+    FALLBACK_SEARCH_CLEAN_RELATED_DATA: '*CleanFallbackSearch',
 };
 
 export const searchViaUniqueIdOnScopeTrackedEntityType = ({ trackedEntityTypeId, formId }) =>
@@ -24,6 +28,7 @@ export const searchViaUniqueIdOnScopeProgram = ({ programId, formId }) =>
 export const searchViaAttributesOnScopeTrackedEntityType = ({ trackedEntityTypeId, formId, page = 1, pageSize, triggeredFrom }) =>
     actionCreator(searchPageActionTypes.VIA_ATTRIBUTES_ON_SCOPE_TRACKED_ENTITY_TYPE_SEARCH)({ trackedEntityTypeId, formId, page, pageSize, triggeredFrom });
 
+
 export const searchViaAttributesOnScopeProgram = ({ programId, formId, page = 1, pageSize, triggeredFrom }) =>
     actionCreator(searchPageActionTypes.VIA_ATTRIBUTES_ON_SCOPE_PROGRAM_SEARCH)({ programId, formId, page, pageSize, triggeredFrom });
 
@@ -31,7 +36,6 @@ export const navigateToMainPage = () => actionCreator(searchPageActionTypes.TO_M
 
 export const showInitialViewOnSearchPage = () =>
     actionCreator(searchPageActionTypes.SEARCH_RESULTS_INITIAL_VIEW)();
-
 
 export const showErrorViewOnSearchPage = () =>
     actionCreator(searchPageActionTypes.SEARCH_RESULTS_ERROR_VIEW)();
@@ -42,7 +46,20 @@ export const showLoadingViewOnSearchPage = () =>
 export const showEmptyResultsViewOnSearchPage = () =>
     actionCreator(searchPageActionTypes.SEARCH_RESULTS_EMPTY_VIEW)();
 
+
 export const showSuccessResultsViewOnSearchPage = (searchResults, currentPage) =>
     actionCreator(searchPageActionTypes.SEARCH_RESULTS_SUCCESS_VIEW)(
         { searchResults, currentPage },
     );
+
+export const startFallbackSearch = ({ programId, formId, page = 1, pageSize }) =>
+    actionCreator(searchPageActionTypes.START_FALLBACK_SEARCH)({ programId, formId, page, pageSize });
+
+export const fallbackSearch = ({ relevantFormValues, trackedEntityTypeId, pageSize, page = 1 }) =>
+    actionCreator(searchPageActionTypes.FALLBACK_SEARCH)({ relevantFormValues, trackedEntityTypeId, pageSize, page });
+
+export const fallbackPushPage = ({ orgUnitId, trackedEntityTypeId, values }) =>
+    actionCreator(searchPageActionTypes.FALLBACK_SEARCH_ROUTER_PUSH)({ orgUnitId, trackedEntityTypeId, values });
+
+export const cleanFallbackRelatedData = () =>
+    actionCreator(searchPageActionTypes.FALLBACK_SEARCH_CLEAN_RELATED_DATA)();

@@ -31,9 +31,9 @@ export type DispatchersFromRedux = {|
   searchViaUniqueIdOnScopeTrackedEntityType: ({| trackedEntityTypeId: string, formId: string |}) => void,
   searchViaAttributesOnScopeProgram: ({| programId: string, formId: string, resultsPageSize: number |}) => void,
   searchViaAttributesOnScopeTrackedEntityType: ({| trackedEntityTypeId: string, formId: string, resultsPageSize: number |}) => void,
-  saveCurrentFormData: (searchScopeType: string, searchScopeId: string, formId: string, formsValues: FormsValues) => void,
+  saveCurrentFormData: ({| searchScopeType: string, searchScopeId: string, formId: string, formsValues: FormsValues, searchGroupsForSelectedScope: SearchGroups |}) => void,
   removeFormDataFromReduxStore: () => void,
-  addFormIdToReduxStore: (formId: string) => void,
+  addFormIdToReduxStore: (formId: string, keptFallbackSearchFormValues: any) => void,
 |}
 
 export type Props = {|

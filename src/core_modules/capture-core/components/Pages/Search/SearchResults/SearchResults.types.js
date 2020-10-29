@@ -37,7 +37,6 @@ export type SearchResultItem = {|
   +tei?: Tei,
 |}
 
-
 export type PropsFromRedux ={|
   +currentPage: number,
   +currentSearchScopeType: $Keys<searchScopes>,
@@ -49,14 +48,21 @@ export type PropsFromRedux ={|
   +dataElements: CardDataElementsInformation
 |}
 
+export type OwnProps ={|
+  +fallbackTriggered: boolean,
+|}
+
 export type DispatchersFromRedux = {|
   searchViaAttributesOnScopeTrackedEntityType: ({| trackedEntityTypeId: string, formId: string, page: string, resultsPageSize: number |}) => void,
+  startFallbackSearch: ({| programId: string, formId: string, resultsPageSize: number |}) => void,
   searchViaAttributesOnScopeProgram: ({| programId: string, formId: string, page: string, resultsPageSize: number |}) => void,
 |}
+
 
 export type Props = {|
   ...DispatchersFromRedux,
   ...PropsFromRedux,
+  ...OwnProps,
   ...CssClasses
 |}
 

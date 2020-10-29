@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2020-10-29T11:06:03.041Z\n"
-"PO-Revision-Date: 2020-10-29T11:06:03.041Z\n"
+"POT-Creation-Date: 2020-10-29T11:13:28.592Z\n"
+"PO-Revision-Date: 2020-10-29T11:13:28.592Z\n"
 
 msgid "Choose one or more dates..."
 msgstr ""
@@ -748,6 +748,14 @@ msgid "View active enrollment"
 msgstr ""
 
 msgid "Re-enroll"
+msgstr ""
+
+msgid ""
+"Not finding the results you were looking for? Try to search all programs "
+"that use type "
+msgstr ""
+
+msgid "Search in all programs"
 msgstr ""
 
 msgid "You dont have access to edit this event"

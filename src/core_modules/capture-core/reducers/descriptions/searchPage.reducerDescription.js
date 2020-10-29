@@ -31,15 +31,31 @@ export const searchPageDesc = createReducerDescription({
     }),
     [searchPageActionTypes.SEARCH_RESULTS_ERROR_VIEW]: state => ({
         ...state,
-        searchStatus: searchPageStatus.ERROR,
+        searchStatus: searchPageStatus.LOADING,
     }),
     [searchPageActionTypes.CURRENT_SEARCH_INFO_SAVE]: (state, { payload: { searchScopeType, searchScopeId, formId, currentSearchTerms } }) => ({
         ...state,
         currentSearchInfo: { searchScopeType, searchScopeId, formId, currentSearchTerms },
     }),
+    
+    
+    [searchPageActionTypes.FALLBACK_SEARCH]: (state, { payload: { relevantFormValues } }) => ({
+        ...state,
+        fallbackTriggered: true,
+        keptFallbackSearchFormValues: relevantFormValues,
+        // todo,
+        // currentSearchInfo: { searchScopeType, searchScopeId, formId, currentSearchTerms },
+    }),
+    [searchPageActionTypes.FALLBACK_SEARCH_CLEAN_RELATED_DATA]: state => ({
+        ...state,
+        fallbackTriggered: false,
+        keptFallbackSearchFormValues: {},
+    }),
 }, 'searchPage', {
     searchStatus: searchPageStatus.INITIAL,
     searchResults: [],
-    currentSearchInfo: [],
+    currentSearchInfo: {},
     currentPage: 0,
+    fallbackTriggered: false,
+    keptFallbackSearchFormValues: {},
 });

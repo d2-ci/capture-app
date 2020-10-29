@@ -59,16 +59,17 @@ const mapStateToProps = (state: ReduxState, { searchGroupsForSelectedScope }: Ow
         formsValues,
         searchPage: {
             searchStatus,
+            keptFallbackSearchFormValues,
         },
     } = state;
 
 
     return {
+        keptFallbackSearchFormValues,
         formsValues,
         searchStatus,
         isSearchViaAttributesValid: (minAttributesRequiredToSearch) => {
             const currentSearchTerms = collectCurrentSearchTerms(searchGroupsForSelectedScope, formsValues);
-
             return Object.values(currentSearchTerms).length >= minAttributesRequiredToSearch;
         },
     };
@@ -88,18 +89,21 @@ const mapDispatchToProps = (dispatch: ReduxDispatch, { searchGroupsForSelectedSc
     searchViaAttributesOnScopeProgram: ({ programId, formId, resultsPageSize }) => {
         dispatch(searchViaAttributesOnScopeProgram({ programId, formId, pageSize: resultsPageSize }));
     },
-    saveCurrentFormData: (searchScopeType, searchScopeId, formId, formsValues) => {
+    saveCurrentFormData: ({ searchScopeType, searchScopeId, formId, formsValues }) => {
         const currentSearchTerms =
           collectCurrentSearchTerms(searchGroupsForSelectedScope, formsValues);
 
         dispatch(actionCreator(searchPageActionTypes.CURRENT_SEARCH_INFO_SAVE)(
-            { searchScopeType,
+            {
+                searchScopeType,
                 searchScopeId,
                 formId,
                 currentSearchTerms,
             }));
     },
-    addFormIdToReduxStore: (formId) => { dispatch(addFormData(formId)); },
+    addFormIdToReduxStore: (formId, keptFallbackSearchFormValues) => {
+        dispatch(addFormData(formId, keptFallbackSearchFormValues));
+    },
     removeFormDataFromReduxStore: () => {
         searchGroupsForSelectedScope
             .forEach(({ formId }) => {

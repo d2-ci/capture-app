@@ -20,12 +20,24 @@ import { searchPageStatus } from '../../../reducers/descriptions/searchPage.redu
 import { SearchForm } from './SearchForm';
 import { LoadingMask } from '../../LoadingMasks';
 import { SearchResults } from './SearchResults/SearchResults.container';
-import { SearchDomainSelector } from './SearchDomainSelector';
+import { TrackedEntityTypeSelector } from '../../TrackedEntityTypeSelector';
 import { withErrorMessageHandler, withLoadingIndicator } from '../../../HOC';
 import { InefficientSelectionsMessage } from '../../InefficientSelectionsMessage';
 import { searchScopes } from './SearchPage.constants';
 import { ResultsPageSizeContext } from '../shared-contexts';
-import { useTitleText } from '../New/NewPage.component';
+import { cleanFallbackRelatedData } from './SearchPage.actions';
+
+export const useTitleText = (selectedSearchScopeId: ?string) => {
+    const { trackedEntityName, programName, scopeType } = useScopeInfo(selectedSearchScopeId);
+
+    const text = {
+        [scopeTypes.EVENT_PROGRAM]: `${programName}`,
+        [scopeTypes.TRACKER_PROGRAM]: `${trackedEntityName} in program: ${programName}`,
+        [scopeTypes.TRACKED_ENTITY_TYPE]: `${trackedEntityName}`,
+    };
+
+    return scopeType ? text[scopeType] : '';
+};
 
 const getStyles = (theme: Theme) => ({
     maxWidth: {
@@ -78,27 +90,33 @@ const Index = ({
     availableSearchOptions,
     preselectedProgramId,
     searchStatus,
+    trackedEntityTypeId,
+    fallbackTriggered,
+    cleanFallback,
 }: Props) => {
     const [selectedSearchScopeId, setSearchScopeId] = useState(preselectedProgramId);
     const [selectedSearchScopeType, setSearchScopeType] = useState(preselectedProgramId ? searchScopes.PROGRAM : null);
     const titleText = useTitleText(selectedSearchScopeId);
 
     useEffect(() => {
-        showInitialSearchPage();
-        setSearchScopeId(preselectedProgramId);
+        const scopeId = preselectedProgramId || trackedEntityTypeId;
+        setSearchScopeId(scopeId);
 
         const type = preselectedProgramId ? searchScopes.PROGRAM : null;
         setSearchScopeType(type);
-    }, [showInitialSearchPage, preselectedProgramId]);
-
-    useEffect(() => {
-        if (!preselectedProgramId) {
-            showInitialSearchPage();
-        }
-
-        return () => showInitialSearchPage();
     },
     [
+        trackedEntityTypeId,
+        preselectedProgramId,
+    ]);
+
+    useEffect(() => {
+        if (!fallbackTriggered) {
+            showInitialSearchPage();
+        }
+    },
+    [
+        fallbackTriggered,
         preselectedProgramId,
         showInitialSearchPage,
     ]);
@@ -107,15 +125,17 @@ const Index = ({
       (selectedSearchScopeId ? availableSearchOptions[selectedSearchScopeId].searchGroups : []);
 
 
-    const handleSearchScopeSelection = (searchScopeId, searchType) => {
+    const handleSearchScopeSelection = (TETypeId, searchType) => {
         showInitialSearchPage();
-        setSearchScopeId(searchScopeId);
+        cleanFallback();
+        setSearchScopeId(TETypeId);
         setSearchScopeType(searchType);
     };
-
     return (<>
         <ResultsPageSizeContext.Provider value={{ resultsPageSize: 5 }}>
-            <LockedSelector />
+            <LockedSelector
+                customActionsOnProgramIdSet={[cleanFallbackRelatedData()]}
+            />
             <div data-test="dhis2-capture-search-page-content" className={classes.container} >
                 <Button
                     dataTest="dhis2-capture-back-button"
@@ -133,7 +153,7 @@ const Index = ({
                         </div>
                         {
                             (selectedSearchScopeType !== searchScopes.PROGRAM) &&
-                            <SearchDomainSelector
+                            <TrackedEntityTypeSelector
                                 trackedEntityTypesWithCorrelatedPrograms={trackedEntityTypesWithCorrelatedPrograms}
                                 onSelect={handleSearchScopeSelection}
                                 selectedSearchScopeId={selectedSearchScopeId}
@@ -141,13 +161,16 @@ const Index = ({
                         }
 
                         <SearchForm
+                            fallbackTriggered={fallbackTriggered}
                             selectedSearchScopeId={selectedSearchScopeId}
                             searchGroupsForSelectedScope={searchGroupsForSelectedScope}
                         />
 
                         {
                             searchStatus === searchPageStatus.SHOW_RESULTS &&
-                            <SearchResults />
+                            <SearchResults
+                                fallbackTriggered={fallbackTriggered}
+                            />
                         }
 
                         {
@@ -207,7 +230,7 @@ const Index = ({
 
 export const SearchPageComponent: ComponentType<ContainerProps> =
   compose(
-      withLoadingIndicator(),
+      withLoadingIndicator(() => ({ height: 'calc(100vh - 46px)' })),
       withErrorMessageHandler(),
       withStyles(getStyles),
   )(Index);
