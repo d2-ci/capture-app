@@ -2,7 +2,7 @@
   "appType": "APP",
   "short_name": "capture",
   "name": "Capture",
-  "version": "1.28.1",
+  "version": "1.28.2",
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
@@ -13,7 +13,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Mon Jun 28 2021 23:46:15 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Tue Jun 29 2021 10:32:36 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
