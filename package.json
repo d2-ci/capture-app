@@ -1,12 +1,12 @@
 {
   "name": "capture-app",
   "homepage": ".",
-  "version": "1.55.11",
+  "version": "1.56.0",
   "cacheVersion": "1",
   "serverVersion": "37",
   "private": false,
   "dependencies": {
-    "@dhis2/app-runtime": "^2.12.1",
+    "@dhis2/app-runtime": "^2.12.2",
     "@dhis2/d2-i18n": "^1.1.0",
     "@dhis2/d2-icons": "^1.0.1",
     "@dhis2/d2-ui-app": "^2.0.0",
@@ -37,7 +37,7 @@
     "query-string": "^7.0.1",
     "react": "^16.14.0",
     "react-addons-update": "^15.6.3",
-    "react-dnd": "^14.0.3",
+    "react-dnd": "^14.0.4",
     "react-dnd-html5-backend": "^14.0.2",
     "react-dom": "^16.14.0",
     "react-html-parser-ultimate": "^1.0.7",
