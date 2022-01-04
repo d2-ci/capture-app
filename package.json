@@ -83,9 +83,9 @@
     "i18n:add": "d2-app-scripts i18n extract && git add ./i18n/"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
-    "@babel/plugin-transform-flow-strip-types": "^7.16.5",
+    "@babel/plugin-transform-flow-strip-types": "^7.16.7",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.7",
     "@dhis2/cli-app-scripts": "^8.3.2",
@@ -107,7 +107,7 @@
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-flowtype": "^5.10.0",
-    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
