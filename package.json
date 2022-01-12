@@ -1,7 +1,7 @@
 {
   "name": "capture-app",
   "homepage": ".",
-  "version": "1.63.0",
+  "version": "1.63.1",
   "cacheVersion": "1",
   "serverVersion": "37",
   "private": true,
@@ -58,7 +58,7 @@
     "redux-logger": "^3.0.6",
     "redux-observable": "^2.0.0",
     "reselect": "^4.1.5",
-    "rxjs": "^7.5.1",
+    "rxjs": "^7.5.2",
     "styled-jsx": "^4",
     "typeface-roboto": "^0.0.75",
     "uuid": "^3.3.2"
@@ -86,7 +86,7 @@
     "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
     "@babel/plugin-transform-flow-strip-types": "^7.16.7",
-    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
     "@babel/preset-react": "^7.16.7",
     "@dhis2/cli-app-scripts": "^8.3.2",
     "@dhis2/cli-helpers-engine": "^3.2.1",
