@@ -82,7 +82,7 @@
     "i18n:add": "d2-app-scripts i18n extract && git add ./i18n/"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.12",
+    "@babel/core": "^7.17.0",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-transform-flow-strip-types": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
@@ -97,7 +97,7 @@
     "cypress": "^7",
     "cypress-cucumber-preprocessor": "^4",
     "docdash": "^1.2.0",
-    "dotenv": "^15.0.0",
+    "dotenv": "^16.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "eslint": "7.32.0",
