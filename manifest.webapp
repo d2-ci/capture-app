@@ -1,8 +1,9 @@
 {
+  "app_hub_id": "92b75fd0-34cc-451c-942f-3dd0f283bcbd",
   "appType": "APP",
   "short_name": "capture",
   "name": "Capture",
-  "version": "99.11.1",
+  "version": "100.1.10",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -14,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Tue Mar 15 2022 10:46:05 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Mon Apr 04 2022 10:27:33 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
