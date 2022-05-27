@@ -136,10 +136,10 @@
     "static/js/133.6177e574.chunk.js": "./static/js/133.6177e574.chunk.js",
     "static/js/134.1bff0f04.chunk.js": "./static/js/134.1bff0f04.chunk.js",
     "app.css": "./static/css/app.ffb47d17.chunk.css",
-    "app.js": "./static/js/app.70b1d2ca.chunk.js",
+    "app.js": "./static/js/app.865b2c88.chunk.js",
     "main.css": "./static/css/main.4b33affb.chunk.css",
     "main.js": "./static/js/main.78cfbfb5.chunk.js",
-    "runtime-main.js": "./static/js/runtime-main.3762ea09.js",
+    "runtime-main.js": "./static/js/runtime-main.888aad94.js",
     "static/css/138.d8662c5a.chunk.css": "./static/css/138.d8662c5a.chunk.css",
     "static/js/138.18b4bd33.chunk.js": "./static/js/138.18b4bd33.chunk.js",
     "static/css/139.e786f414.chunk.css": "./static/css/139.e786f414.chunk.css",
@@ -391,7 +391,7 @@
     "static/media/index.css": "./static/media/roboto-latin-900italic.cb5ad999.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.3762ea09.js",
+    "static/js/runtime-main.888aad94.js",
     "static/css/139.e786f414.chunk.css",
     "static/js/139.de88674a.chunk.js",
     "static/css/main.4b33affb.chunk.css",
