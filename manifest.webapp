@@ -1,0 +1,23 @@
+{
+  "app_hub_id": "92b75fd0-34cc-451c-942f-3dd0f283bcbd",
+  "appType": "APP",
+  "short_name": "capture",
+  "name": "Capture",
+  "version": "100.29.0",
+  "core_app": true,
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Mon Apr 17 2023 17:06:42 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}
