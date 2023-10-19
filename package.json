@@ -1,7 +1,7 @@
 {
     "name": "capture-app",
     "homepage": ".",
-    "version": "100.40.0",
+    "version": "100.40.1",
     "cacheVersion": "5",
     "serverVersion": "38",
     "license": "BSD-3-Clause",
@@ -17,7 +17,7 @@
         "@dhis2/d2-ui-org-unit-tree": "^7.3.3",
         "@dhis2/d2-ui-rich-text": "^7.4.0",
         "@dhis2/d2-ui-sharing-dialog": "^7.3.3",
-        "@dhis2/rules-engine-javascript": "100.40.0",
+        "@dhis2/rules-engine-javascript": "100.40.1",
         "@dhis2/ui": "^8.13.8",
         "@joakim_sm/react-infinite-calendar": "^2.4.2",
         "@material-ui/core": "3.9.4",
@@ -68,7 +68,7 @@
         "uuid": "^9.0.0"
     },
     "scripts": {
-        "start": "yarn verifyCacheVersion && concurrently --kill-others \"yarn workspaces run build:watch\" \"d2-app-scripts start\"",
+        "start": "export  yarn verifyCacheVersion && concurrently --kill-others \"yarn workspaces run build:watch\" \"d2-app-scripts start\"",
         "start:forCypress": "yarn workspaces run build && node scripts/startAppForCypress.js",
         "build": "yarn verifyCacheVersion && yarn workspaces run build && GENERATE_SOURCEMAP=false d2-app-scripts build && cp ./package.json ./build/app/package.json",
         "build:standalone": "yarn workspaces run build && GENERATE_SOURCEMAP=false d2-app-scripts build --standalone",
@@ -93,7 +93,7 @@
         "@babel/plugin-transform-flow-strip-types": "^7.16.7",
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-react": "^7.16.7",
-        "@badeball/cypress-cucumber-preprocessor": "16",
+        "@badeball/cypress-cucumber-preprocessor": "17.2.1",
         "@cypress/webpack-preprocessor": "^6.0.0",
         "@dhis2/cli-app-scripts": "^9.0.1",
         "@dhis2/cli-helpers-engine": "^3.2.1",
@@ -103,6 +103,7 @@
         "@dhis2/cypress-plugins": "^10.0.3",
         "@typescript-eslint/eslint-plugin": "^4.33.0",
         "@vercel/ncc": "^0.34.0",
+        "babel-plugin-module-resolver": "^5.0.0",
         "concurrently": "^7.0.0",
         "cypress": "12",
         "docdash": "^1.2.0",
