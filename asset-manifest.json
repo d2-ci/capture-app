@@ -138,10 +138,10 @@
     "moment-locales/zh-mo.js": "./static/js/moment-locales/zh-mo.321758f6.chunk.js",
     "moment-locales/zh-tw.js": "./static/js/moment-locales/zh-tw.4c6a6722.chunk.js",
     "app.css": "./static/css/app.07eb5a7d.chunk.css",
-    "app.js": "./static/js/app.adc748b9.chunk.js",
+    "app.js": "./static/js/app.3430e3ce.chunk.js",
     "main.css": "./static/css/main.4b33affb.chunk.css",
     "main.js": "./static/js/main.9e93f15a.chunk.js",
-    "runtime-main.js": "./static/js/runtime-main.69fe5bed.js",
+    "runtime-main.js": "./static/js/runtime-main.bb80bd84.js",
     "static/css/140.1af05124.chunk.css": "./static/css/140.1af05124.chunk.css",
     "static/js/140.8b9d5e74.chunk.js": "./static/js/140.8b9d5e74.chunk.js",
     "static/css/141.e786f414.chunk.css": "./static/css/141.e786f414.chunk.css",
@@ -395,7 +395,7 @@
     "static/media/index.css": "./static/media/roboto-latin-900italic.cb5ad999.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.69fe5bed.js",
+    "static/js/runtime-main.bb80bd84.js",
     "static/css/141.e786f414.chunk.css",
     "static/js/141.c91c88e4.chunk.js",
     "static/css/main.4b33affb.chunk.css",
