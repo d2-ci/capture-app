@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.7fdd0d18.css",
-    "main.js": "./static/js/main.a70521d0.js",
+    "main.js": "./static/js/main.dd10788e.js",
     "app.css": "./static/css/app.def613c0.chunk.css",
-    "app.js": "./static/js/app.22422a0b.chunk.js",
+    "app.js": "./static/js/app.8db17d34.chunk.js",
     "moment-locales/af.js": "./static/js/moment-locales/af.21f33fd3.chunk.js",
     "moment-locales/ar.js": "./static/js/moment-locales/ar.3ca61565.chunk.js",
     "moment-locales/ar-dz.js": "./static/js/moment-locales/ar-dz.566a3f34.chunk.js",
@@ -215,7 +215,7 @@
     "static/js/2097.e725031b.chunk.js": "./static/js/2097.e725031b.chunk.js",
     "static/js/5567.3ad05f93.chunk.js": "./static/js/5567.3ad05f93.chunk.js",
     "static/js/4595.eb01d06d.chunk.js": "./static/js/4595.eb01d06d.chunk.js",
-    "static/js/1817.1ddc277f.chunk.js": "./static/js/1817.1ddc277f.chunk.js",
+    "static/js/1817.31caeab1.chunk.js": "./static/js/1817.31caeab1.chunk.js",
     "static/js/5626.6ca83d7c.chunk.js": "./static/js/5626.6ca83d7c.chunk.js",
     "static/js/8348.d8956b0b.chunk.js": "./static/js/8348.d8956b0b.chunk.js",
     "static/js/7122.4eb3a8c9.chunk.js": "./static/js/7122.4eb3a8c9.chunk.js",
@@ -246,8 +246,8 @@
     "static/js/1399.edb68283.chunk.js": "./static/js/1399.edb68283.chunk.js",
     "static/js/9035.36e77e5d.chunk.js": "./static/js/9035.36e77e5d.chunk.js",
     "static/js/3889.f2e136ba.chunk.js": "./static/js/3889.f2e136ba.chunk.js",
-    "static/css/6464.b8712754.chunk.css": "./static/css/6464.b8712754.chunk.css",
-    "static/js/6464.91ecc39e.chunk.js": "./static/js/6464.91ecc39e.chunk.js",
+    "static/css/225.b8712754.chunk.css": "./static/css/225.b8712754.chunk.css",
+    "static/js/225.c7e6ebb7.chunk.js": "./static/js/225.c7e6ebb7.chunk.js",
     "service-worker.js": "./service-worker.js",
     "static/media/roboto-latin-900italic.woff": "./static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "./static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
@@ -277,6 +277,6 @@
   },
   "entrypoints": [
     "static/css/main.7fdd0d18.css",
-    "static/js/main.a70521d0.js"
+    "static/js/main.dd10788e.js"
   ]
 }
