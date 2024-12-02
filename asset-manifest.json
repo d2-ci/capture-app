@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.7fdd0d18.css",
-    "main.js": "./static/js/main.23dd131c.js",
-    "app.css": "./static/css/app.81989ab0.chunk.css",
-    "app.js": "./static/js/app.6a4c57b2.chunk.js",
+    "main.js": "./static/js/main.3e12e080.js",
+    "app.css": "./static/css/app.b57f9ba4.chunk.css",
+    "app.js": "./static/js/app.914efc9c.chunk.js",
     "moment-locales/af.js": "./static/js/moment-locales/af.21f33fd3.chunk.js",
     "moment-locales/ar.js": "./static/js/moment-locales/ar.3ca61565.chunk.js",
     "moment-locales/ar-dz.js": "./static/js/moment-locales/ar-dz.566a3f34.chunk.js",
@@ -246,8 +246,8 @@
     "static/js/1399.edb68283.chunk.js": "./static/js/1399.edb68283.chunk.js",
     "static/js/9035.36e77e5d.chunk.js": "./static/js/9035.36e77e5d.chunk.js",
     "static/js/3889.f2e136ba.chunk.js": "./static/js/3889.f2e136ba.chunk.js",
-    "static/css/9468.b8712754.chunk.css": "./static/css/9468.b8712754.chunk.css",
-    "static/js/9468.4bd57b95.chunk.js": "./static/js/9468.4bd57b95.chunk.js",
+    "static/css/2930.b8712754.chunk.css": "./static/css/2930.b8712754.chunk.css",
+    "static/js/2930.d8ac2d5f.chunk.js": "./static/js/2930.d8ac2d5f.chunk.js",
     "service-worker.js": "./service-worker.js",
     "static/media/roboto-latin-900italic.woff": "./static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "./static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
@@ -277,6 +277,6 @@
   },
   "entrypoints": [
     "static/css/main.7fdd0d18.css",
-    "static/js/main.23dd131c.js"
+    "static/js/main.3e12e080.js"
   ]
 }
