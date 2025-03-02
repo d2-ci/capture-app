@@ -1,7 +1,7 @@
 {
     "name": "capture-app",
     "homepage": ".",
-    "version": "101.4.1",
+    "version": "101.29.2",
     "cacheVersion": "7",
     "serverVersion": "38",
     "license": "BSD-3-Clause",
@@ -10,6 +10,7 @@
         "packages/rules-engine"
     ],
     "dependencies": {
+        "@dhis2/rules-engine-javascript": "101.29.2",
         "@dhis2/app-runtime": "^3.9.3",
         "@dhis2/d2-i18n": "^1.1.0",
         "@dhis2/d2-icons": "^1.0.1",
@@ -17,8 +18,8 @@
         "@dhis2/d2-ui-org-unit-tree": "^7.3.3",
         "@dhis2/d2-ui-rich-text": "^7.4.0",
         "@dhis2/d2-ui-sharing-dialog": "^7.3.3",
-        "@dhis2/rules-engine-javascript": "101.4.1",
         "@dhis2/ui": "^9.10.1",
+        "@dhis2-ui/calendar": "^10.0.3",
         "@joakim_sm/react-infinite-calendar": "^2.4.2",
         "@material-ui/core": "3.9.4",
         "@material-ui/icons": "3",
@@ -37,7 +38,7 @@
         "loglevel": "^1.9.1",
         "moment": "^2.29.4",
         "prop-types": "^15.8.1",
-        "query-string": "^7.1.1",
+        "query-string": "^9.1.1",
         "react": "^16.14.0",
         "react-addons-update": "^15.6.3",
         "react-dnd": "^14.0.5",
@@ -63,6 +64,7 @@
         "redux-observable": "^2.0.0",
         "reselect": "^4.1.7",
         "rxjs": "^7.5.5",
+        "styled-jsx": "^4",
         "typeface-roboto": "^0.0.75",
         "uuid": "^9.0.0"
     },
@@ -90,7 +92,7 @@
         "@babel/eslint-parser": "^7.19.1",
         "@babel/plugin-transform-flow-strip-types": "^7.16.7",
         "@babel/preset-env": "^7.16.11",
-        "@babel/preset-react": "^7.16.7",
+        "@babel/preset-react": "^7.26.3",
         "@badeball/cypress-cucumber-preprocessor": "17.2.1",
         "@cypress/webpack-preprocessor": "^6.0.0",
         "@dhis2/cli-app-scripts": "^10.4.0",
@@ -113,7 +115,7 @@
         "eslint-config-react-app": "^6.0.0",
         "eslint-friendly-formatter": "^3.0.0",
         "eslint-import-resolver-exports": "^1.0.0-beta.5",
-        "eslint-import-resolver-webpack": "^0.13.2",
+        "eslint-import-resolver-webpack": "^0.13.10",
         "eslint-plugin-flowtype": "^5.10.0",
         "eslint-plugin-import": "2.29.1",
         "eslint-plugin-jsx-a11y": "^5.1.1",
@@ -128,14 +130,14 @@
         "jsdoc-export-default-interop": "^0.3.1",
         "node-fetch": "2",
         "redux-devtools-extension": "^2.13.9",
-        "wait-on": "^7.2.0",
-        "styled-jsx": "^4"
+        "wait-on": "^8.0.1"
     },
     "resolutions": {
         "@dhis2/cli-app-scripts": "^10.4.0",
         "@dhis2/app-runtime": "^3.10.2",
-        "@babel/preset-react": "7.16.7",
+        "@babel/preset-react": "7.26.3",
         "@dhis2/ui": "^9.10.1",
+        "@dhis2-ui/calendar": "^10.0.3",
         "@js-temporal/polyfill": "0.4.3",
         "core-js": "2.5.7",
         "i18next": "^20.5.0"
