@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.7fdd0d18.css",
-    "main.js": "./static/js/main.e391bfae.js",
+    "main.js": "./static/js/main.0425419d.js",
     "app.css": "./static/css/app.0fe6b267.chunk.css",
-    "app.js": "./static/js/app.ef8da027.chunk.js",
+    "app.js": "./static/js/app.5f3f3b3e.chunk.js",
     "moment-locales/af.js": "./static/js/moment-locales/af.21f33fd3.chunk.js",
     "moment-locales/ar.js": "./static/js/moment-locales/ar.3ca61565.chunk.js",
     "moment-locales/ar-dz.js": "./static/js/moment-locales/ar-dz.566a3f34.chunk.js",
@@ -250,7 +250,7 @@
     "static/js/1399.edb68283.chunk.js": "./static/js/1399.edb68283.chunk.js",
     "static/js/9035.85b92327.chunk.js": "./static/js/9035.85b92327.chunk.js",
     "static/js/3889.72d75242.chunk.js": "./static/js/3889.72d75242.chunk.js",
-    "static/js/1251.497191a0.chunk.js": "./static/js/1251.497191a0.chunk.js",
+    "static/js/1251.2da97ef3.chunk.js": "./static/js/1251.2da97ef3.chunk.js",
     "service-worker.js": "./service-worker.js",
     "static/media/roboto-latin-900italic.woff": "./static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "./static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
@@ -280,6 +280,6 @@
   },
   "entrypoints": [
     "static/css/main.7fdd0d18.css",
-    "static/js/main.e391bfae.js"
+    "static/js/main.0425419d.js"
   ]
 }
