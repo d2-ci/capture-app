@@ -6,7 +6,7 @@
   "minDHIS2Version": "2.40",
   "coreApp": true,
   "viteConfigExtensions": "./viteConfigExtensions.mjs",
-  "version": "104.6.2",
+  "version": "104.6.3",
   "entryPoints": {
     "app": "index.html"
   }
