@@ -12,7 +12,7 @@
     }
   ],
   "viteConfigExtensions": "./viteConfigExtensions.mjs",
-  "version": "104.1.0",
+  "version": "104.6.3",
   "entryPoints": {
     "app": "index.html"
   }
