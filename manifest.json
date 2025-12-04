@@ -49,6 +49,7 @@
     },
     {
       "src": "safari-pinned-tab.svg",
+      "sizes": "16x16",
       "type": "image/svg+xml"
     }
   ],
