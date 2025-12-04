@@ -11,8 +11,8 @@
       "url": "#/search"
     }
   ],
-  "viteConfigExtensions": "./viteConfigExtensions.mjs",
-  "version": "104.6.3",
+  "viteConfigExtensions": "./vite.config.mts",
+  "version": "105.0.0",
   "entryPoints": {
     "app": "index.html"
   }
