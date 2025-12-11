@@ -25,7 +25,9 @@
   },
   {
     "locale": "en",
-    "shortcuts": {},
+    "shortcuts": {
+      "Search TEI": "Search TEI"
+    },
     "title": "Capture"
   },
   {
