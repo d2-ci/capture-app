@@ -3,7 +3,7 @@
   "appType": "APP",
   "short_name": "capture",
   "name": "Capture",
-  "version": "102.6.15",
+  "version": "105.2.7",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -15,9 +15,14 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Fri Aug 08 2025 08:56:46 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Tue Jan 13 2026 12:52:55 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "scope": "."
+  "shortcuts": [
+    {
+      "name": "Search TEI",
+      "url": "#/search"
+    }
+  ]
 }
