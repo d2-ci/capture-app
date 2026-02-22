@@ -13,7 +13,7 @@
     }
   ],
   "viteConfigExtensions": "./vite.config.mts",
-  "version": "105.6.0",
+  "version": "105.6.1",
   "entryPoints": {
     "app": "index.html"
   }
