@@ -1,39 +1,18 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
+// A simple, no-op service worker that takes immediate control and tears
+// everything down; has no fetch handler. Fixes apps with rogue service workers
+// and gets overrwritten in apps using PWA
+self.addEventListener('install', () => {
+    self.skipWaiting()
+})
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
-importScripts(
-  "./precache-manifest.7b56ab9b8fd1e5da21423d0d594178cc.js"
-);
-
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
-
-workbox.core.clientsClaim();
-
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("./index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
-});
+self.addEventListener('activate', async () => {
+    console.log('Removing previous service worker')
+    // Unregister, in case app doesn't
+    self.registration.unregister()
+    // Delete all caches
+    const keys = await self.caches.keys()
+    await Promise.all(keys.map((key) => self.caches.delete(key)))
+    // Force refresh all windows
+    const clients = await self.clients.matchAll({ type: 'window' })
+    clients.forEach((client) => client.navigate(client.url))
+})
