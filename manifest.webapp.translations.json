@@ -1,23 +1,38 @@
 [
   {
     "locale": "ar",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "التقاط"
   },
   {
     "locale": "ar_IQ",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "bn",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "ckb",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "cs",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Sběr dat"
   },
   {
     "locale": "da",
@@ -31,44 +46,67 @@
     "title": "Capture"
   },
   {
-    "locale": "en_US",
-    "shortcuts": {}
-  },
-  {
     "locale": "es",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Captura de datos"
   },
   {
     "locale": "es_419",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "fr",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Saisie"
   },
   {
     "locale": "hi_IN",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "id",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Ambil"
   },
   {
     "locale": "km",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "lo",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "ເລືອກແລ້ວ"
   },
   {
     "locale": "my",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "nb",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Registrer"
   },
   {
     "locale": "ne",
@@ -76,7 +114,10 @@
   },
   {
     "locale": "nl",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Vastlegging"
   },
   {
     "locale": "or",
@@ -84,27 +125,45 @@
   },
   {
     "locale": "prs",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "گرفتن"
   },
   {
     "locale": "ps",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "ثبتول"
   },
   {
     "locale": "pt",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Captura"
   },
   {
     "locale": "pt_BR",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Captura"
   },
   {
     "locale": "ro",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "ru",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Capture"
   },
   {
     "locale": "si",
@@ -112,23 +171,38 @@
   },
   {
     "locale": "sv",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "tet",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "tg",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "uk",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Фіксація"
   },
   {
     "locale": "ur",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "قبضہ"
   },
   {
     "locale": "uz_Cyrl",
@@ -140,22 +214,37 @@
   },
   {
     "locale": "uz_UZ_Cyrl",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Назоратга олиш"
   },
   {
     "locale": "uz_UZ_Latn",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Nazoratga olish"
   },
   {
     "locale": "vi",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Nhập liệu (Sự kiện)"
   },
   {
     "locale": "zh",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": "搜索 TEI"
+    },
+    "title": "采集"
   },
   {
     "locale": "zh_CN",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "采集"
   }
 ]
