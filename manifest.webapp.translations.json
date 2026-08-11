@@ -46,10 +46,6 @@
     "title": "Capture"
   },
   {
-    "locale": "en_US",
-    "shortcuts": {}
-  },
-  {
     "locale": "es",
     "shortcuts": {
       "Search TEI": ""
@@ -240,7 +236,7 @@
   {
     "locale": "zh",
     "shortcuts": {
-      "Search TEI": ""
+      "Search TEI": "搜索 TEI"
     },
     "title": "采集"
   },
