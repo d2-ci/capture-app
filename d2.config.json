@@ -4,7 +4,7 @@
   "type": "app",
   "direction": "auto",
   "id": "92b75fd0-34cc-451c-942f-3dd0f283bcbd",
-  "minDHIS2Version": "2.40",
+  "minDHIS2Version": "2.41",
   "coreApp": true,
   "shortcuts": [
     {
@@ -13,7 +13,7 @@
     }
   ],
   "viteConfigExtensions": "./vite.config.mts",
-  "version": "106.7.6",
+  "version": "107.0.3",
   "entryPoints": {
     "app": "index.html"
   }
