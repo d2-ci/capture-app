@@ -1,0 +1,250 @@
+[
+  {
+    "locale": "ar",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "التقاط"
+  },
+  {
+    "locale": "ar_IQ",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "bn",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "ckb",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "cs",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Sběr dat"
+  },
+  {
+    "locale": "da",
+    "shortcuts": {}
+  },
+  {
+    "locale": "en",
+    "shortcuts": {
+      "Search TEI": "Search TEI"
+    },
+    "title": "Capture"
+  },
+  {
+    "locale": "es",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Captura de datos"
+  },
+  {
+    "locale": "es_419",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "fr",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Saisie"
+  },
+  {
+    "locale": "hi_IN",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "id",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Ambil"
+  },
+  {
+    "locale": "km",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "lo",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "ເລືອກແລ້ວ"
+  },
+  {
+    "locale": "my",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "nb",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Registrer"
+  },
+  {
+    "locale": "ne",
+    "shortcuts": {}
+  },
+  {
+    "locale": "nl",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Vastlegging"
+  },
+  {
+    "locale": "or",
+    "shortcuts": {}
+  },
+  {
+    "locale": "prs",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "گرفتن"
+  },
+  {
+    "locale": "ps",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "ثبتول"
+  },
+  {
+    "locale": "pt",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Captura"
+  },
+  {
+    "locale": "pt_BR",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Captura"
+  },
+  {
+    "locale": "ro",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "ru",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Capture"
+  },
+  {
+    "locale": "si",
+    "shortcuts": {}
+  },
+  {
+    "locale": "sv",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "tet",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "tg",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
+  },
+  {
+    "locale": "uk",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Фіксація"
+  },
+  {
+    "locale": "ur",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "قبضہ"
+  },
+  {
+    "locale": "uz_Cyrl",
+    "shortcuts": {}
+  },
+  {
+    "locale": "uz_Latn",
+    "shortcuts": {}
+  },
+  {
+    "locale": "uz_UZ_Cyrl",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Назоратга олиш"
+  },
+  {
+    "locale": "uz_UZ_Latn",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Nazoratga olish"
+  },
+  {
+    "locale": "vi",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "Nhập liệu (Sự kiện)"
+  },
+  {
+    "locale": "zh",
+    "shortcuts": {
+      "Search TEI": "搜索 TEI"
+    },
+    "title": "采集"
+  },
+  {
+    "locale": "zh_CN",
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": "采集"
+  }
+]
