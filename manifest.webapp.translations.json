@@ -62,7 +62,7 @@
   {
     "locale": "fr",
     "shortcuts": {
-      "Search TEI": ""
+      "Search TEI": "Rechercher la TEI"
     },
     "title": "Saisie"
   },
@@ -236,7 +236,7 @@
   {
     "locale": "zh",
     "shortcuts": {
-      "Search TEI": ""
+      "Search TEI": "搜索 TEI"
     },
     "title": "采集"
   },
