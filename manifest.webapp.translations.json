@@ -167,7 +167,10 @@
   },
   {
     "locale": "si",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "sv",
