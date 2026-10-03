@@ -1,0 +1,1 @@
+var a=["M","MM","Q","D","DD","DDD","DDDD","d","E","W","WW","YY","YYYY","GG","GGGG","H","HH","h","hh","m","mm","s","ss","S","SS","SSS","Z","ZZ","X","x"];function s(r){var e=[];for(var o in r)r.hasOwnProperty(o)&&e.push(o);var n=a.concat(e).sort().reverse(),t=new RegExp("(\\[[^\\[]*\\])|(\\\\)?("+n.join("|")+"|.)","g");return t}var i=s;export{i as b};
