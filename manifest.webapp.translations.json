@@ -36,7 +36,10 @@
   },
   {
     "locale": "da",
-    "shortcuts": {}
+    "shortcuts": {
+      "Search TEI": ""
+    },
+    "title": ""
   },
   {
     "locale": "en",
